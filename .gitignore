@@ -1,0 +1,26 @@
+# Visual Studio
+.vs/
+*.VC.db
+*.VC.opendb
+
+# Unreal generated/build folders
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+
+# User-specific / OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build artifacts
+*.suo
+*.user
+*.opensdf
+*.sdf
+
+# Optional: if you don't want solution files committed (UE can regenerate them)
+# *.sln

@@ -5,6 +5,7 @@
 #include "MarketStallActor.generated.h"
 
 class UStaticMeshComponent;
+//class UPointLightComponent* Light;
 
 UCLASS()
 class MEDIEVALVILLAGE_API AMarketStallActor : public AVillageActor
@@ -20,4 +21,5 @@ protected:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Stall|Components")
 	UStaticMeshComponent* CanopyMesh;
+
 };

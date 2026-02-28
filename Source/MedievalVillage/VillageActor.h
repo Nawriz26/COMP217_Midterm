@@ -2,6 +2,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "Components/PointLightComponent.h"
 #include "VillageActor.generated.h"
 
 class USceneComponent;
